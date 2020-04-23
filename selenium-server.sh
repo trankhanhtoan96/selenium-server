@@ -6,6 +6,7 @@ apt-get -y install python3 python3-pip
 pip3 install selenium
 pip3 install pyvirtualdisplay
 apt-get -y install xvfb
+apt-get -y install x11-utils
 cd /root
 git clone https://trankhanhtoan96:Trankhanhtoan29101996@github.com/tkt96/selenium.git
 chmod +x /root/selenium/firefox_driver/geckodriver-linux64
